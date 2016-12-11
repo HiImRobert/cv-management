@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/AppTheme"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salvaredatecv.proiectandro.MeniuActivity">
+
+    <Button
+        android:text="Adauga E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_AdaugaEmail"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/btn_AdaugaCV"
+        android:layout_alignStart="@+id/btn_CVulMeu"
+        android:textColor="@color/black"
+        android:background="@drawable/login"/>
+
+    <TextView
+        android:text="Lista activitatilor din contul dvs.:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Logout"
+        android:layout_alignStart="@+id/btn_AdaugaCV"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView_ListaActivit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Logout"
+        android:elevation="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btn_AdaugaEmail"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:background="@drawable/login"/>
+
+    <Button
+        android:text="Meniu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_meniu"
+        android:layout_marginEnd="19dp"
+        android:layout_above="@+id/textView_ListaActivit"
+        android:layout_alignEnd="@+id/btn_CVulMeu"
+        android:textColor="@color/black"
+        android:background="@drawable/login"/>
+
+    <Button
+        android:text="CV-ul meu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_CVulMeu"
+        android:textColor="@color/black"
+        android:background="@drawable/login"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/btn_AdaugaCV" />
+
+    <Button
+        android:text="Profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_profil"
+        android:layout_marginTop="14dp"
+        android:textColor="@color/black"
+        android:background="@drawable/login"
+        android:layout_below="@+id/btn_AdaugaEmail"
+        android:layout_alignStart="@+id/btn_AdaugaEmail" />
+
+    <Button
+        android:text="Adauga CV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_AdaugaCV"
+        android:textColor="@color/black"
+        android:background="@drawable/login"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/btn_CVulMeu"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

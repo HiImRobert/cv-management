@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_schimbare_parola"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.salvaredatecv.proiectandro.SchimbareParola">
+
+    <TextView
+        android:text="@string/textView8_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="104dp"
+        android:id="@+id/textView8"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="@string/textView9_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="52dp"
+        android:id="@+id/textView9"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:id="@+id/editText_actuala"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignEnd="@+id/editText_actuala"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/editText_noua" />
+
+    <TextView
+        android:text="@string/textView14_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:id="@+id/textView14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/textView13"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:text="@string/textView13_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/editText_noua"
+        android:layout_marginTop="32dp"
+        android:id="@+id/editText_reintrodu"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:text="@string/textView15_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_reintrodu"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView15"
+        android:clickable="true"
+        android:layout_alignStart="@+id/textView14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:text="@string/button_salveaza_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_alignStart="@+id/editText_reintrodu"
+        android:layout_marginTop="22dp"
+        android:id="@+id/button_salveaza" />
+</RelativeLayout>
