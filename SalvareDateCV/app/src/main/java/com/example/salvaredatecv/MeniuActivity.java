@@ -1,4 +1,4 @@
-package com.example.salvaredatecv.proiectandro;
+package com.example.salvaredatecv;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -8,9 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.salvaredatecv.R;
-import com.example.salvaredatecv.robert.crud.CreateActivity;
-import com.example.salvaredatecv.robert.crud.ReadActivity;
+import com.example.salvaredatecv.crud.CreateActivity;
 
 public class MeniuActivity extends AppCompatActivity {
 

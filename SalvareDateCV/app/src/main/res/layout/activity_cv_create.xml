@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.salvaredatecv.robert.crud.CreateActivity"
+    tools:context="com.example.salvaredatecv.crud.CreateActivity"
     android:orientation="vertical">
 
     <LinearLayout
@@ -24,34 +24,21 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editText" />
+            android:id="@+id/editTextId" />
 
         <Button
             android:text="@string/menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bMenu"
-            android:layout_weight="1"
-            android:textColor="@color/black"
-            android:background="@drawable/login"/>
-
-        <Button
-            android:text="@string/next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/bCancel"
-            android:layout_weight="1"
-            android:textColor="@color/black"
-            android:background="@drawable/login"/>
+            android:layout_weight="1" />
 
         <Button
             android:text="@string/logout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bLogout"
-            android:layout_weight="1"
-            android:textColor="@color/black"
-            android:background="@drawable/login"/>
+            android:layout_weight="1" />
 
     </LinearLayout>
 
@@ -80,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/etWorkExperience"
+                android:id="@+id/editTextWorkExperience"
                 />
 
             <TextView
@@ -203,22 +190,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bCreate"
-            android:layout_weight="1"
-            android:textColor="@color/black"
-            android:background="@drawable/login"/>
+            android:layout_weight="1" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/bView"
+            android:id="@+id/bRead"
             android:layout_weight="1"
-            android:text="@string/view" />
+            android:text="@string/read" />
 
         <Button
             android:text="@string/update"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bUpdate"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="@string/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bDelete"
             android:layout_weight="1" />
 
     </LinearLayout>

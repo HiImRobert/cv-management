@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">SalvareDateCV</string>
     <string name="cv_name">Robert_CV</string>
-    <string name="menu">Menu</string>
-    <string name="logout">Logout</string>
     <string name="work_experience_head"><b>Work Experience</b></string>
     <string name="work_experience_body_position">WorkExperience</string>
     <string name="education_head"><b>Education</b></string>
@@ -12,9 +10,6 @@
     <string name="skills_competences_head"><b>Skills%Competences</b></string>
     <string name="languages_head"><b>Languages</b></string>
     <string name="interests_head"><b>Interests</b></string>
-    <string name="create">Create</string>
-    <string name="update">Update</string>
-    <string name="delete">Delete</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="cv_default_name">Your CV Name</string>
@@ -58,7 +53,10 @@
     <string name="textView13_text">Noua</string>
     <string name="textView15_text">Ai uitat parola?</string>
     <string name="button_salveaza_text">Salveaza</string>
-    <string name="next">Next</string>
-    <string name="view">Read</string>
+    <string name="menu">Menu</string>
+    <string name="logout">Logout</string>
+    <string name="create">Create</string>
+    <string name="read">Read</string>
     <string name="update">Update</string>
+    <string name="delete">Delete</string>
 </resources>

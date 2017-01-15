@@ -1,4 +1,4 @@
-package com.example.salvaredatecv.robert.crud;
+package com.example.salvaredatecv.crud;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -48,5 +48,14 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
         Cursor cursor = sqLiteDatabase.rawQuery("SELECT * FROM " + TABLE_NAME, null);
         return cursor;
+    }
+
+    public boolean updateData(String id, String name) {
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put(COL_1, id);
+        contentValues.put(COL_2, name);
+        sqLiteDatabase.update(TABLE_NAME, contentValues, "id = ?", new String[] {id});
+        return true;
     }
 }

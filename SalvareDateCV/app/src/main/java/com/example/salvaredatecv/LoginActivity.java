@@ -1,4 +1,4 @@
-package com.example.salvaredatecv.proiectandro;
+package com.example.salvaredatecv;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -14,14 +14,6 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.salvaredatecv.R;
-import com.example.salvaredatecv.proiectandro.AiUitatParolaActivity;
-import com.example.salvaredatecv.proiectandro.SignUpActivity;
-
-import org.w3c.dom.Text;
-
-import static android.R.attr.password;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 

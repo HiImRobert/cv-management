@@ -1,4 +1,4 @@
-package com.example.salvaredatecv.proiectandro;
+package com.example.salvaredatecv;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.salvaredatecv.R;
 
 public class AiUitatParolaActivity extends AppCompatActivity implements View.OnClickListener {
     private static EditText email;

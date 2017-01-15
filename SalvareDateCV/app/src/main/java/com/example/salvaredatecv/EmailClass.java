@@ -1,4 +1,4 @@
-package com.example.salvaredatecv.proiectandro;
+package com.example.salvaredatecv;
 
 /**
  * Created by Mada on 09.12.2016.
