@@ -4,7 +4,7 @@
     <string name="menu">Menu</string>
     <string name="logout">Logout</string>
     <string name="work_experience_head"><b>Work Experience</b></string>
-    <string name="work_experience_body_position">Solution Consulting Engineering Intern</string>
+    <string name="work_experience_body_position">WorkExperience</string>
     <string name="education_head"><b>Education</b></string>
     <string name="certificates_head"><b>Certificates</b></string>
     <string name="organizations_head"><b>Organizations</b></string>
@@ -58,5 +58,7 @@
     <string name="textView13_text">Noua</string>
     <string name="textView15_text">Ai uitat parola?</string>
     <string name="button_salveaza_text">Salveaza</string>
-
+    <string name="next">Next</string>
+    <string name="view">Read</string>
+    <string name="update">Update</string>
 </resources>

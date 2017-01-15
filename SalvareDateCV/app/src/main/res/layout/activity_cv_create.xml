@@ -19,19 +19,27 @@
         android:orientation="horizontal"
         android:id="@+id/layoutHead">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <EditText
+            android:layout_width="91dp"
             android:layout_height="wrap_content"
-            android:id="@+id/tvCVDefaultName"
-            android:layout_weight="1"
-            android:text="@string/cv_default_name"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText" />
 
         <Button
             android:text="@string/menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/bMenu"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:background="@drawable/login"/>
+
+        <Button
+            android:text="@string/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bCancel"
             android:layout_weight="1"
             android:textColor="@color/black"
             android:background="@drawable/login"/>
@@ -200,13 +208,19 @@
             android:background="@drawable/login"/>
 
         <Button
-            android:text="@string/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/bCancel"
+            android:id="@+id/bView"
             android:layout_weight="1"
-            android:textColor="@color/black"
-            android:background="@drawable/login"/>
+            android:text="@string/view" />
+
+        <Button
+            android:text="@string/update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bUpdate"
+            android:layout_weight="1" />
+
     </LinearLayout>
 
 </LinearLayout>
